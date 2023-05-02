@@ -56,10 +56,15 @@
    }
 
 .main {
-    width: 70rem;
+    width: 80%;
     margin: 0 auto;
-    padding: 0;
-    padding-top: 7%;
+    padding: 3rem;
+    margin-top: 7%;
+    background-color: #d9fcfa;
+}
+
+.site {
+    /* background-color: #11e4d6; */
 }
 
 .nav-icon  {
