@@ -67,10 +67,29 @@
     /* background-color: #11e4d6; */
 }
 
+/* Main navigation */
 .nav-icon  {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
+.main-nav-btn{
+    color: #51b2bd;
+}
+
+.main-nav-icon-label {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* Secondary Navigation */
 .sec-nav-icon {
     font-size: 2rem;
+}
+
+.sec-nav-icon-label {
+    font-size: 0.7rem;
+}
+
+.sec-nav-btn {
+    color: #000;
 }

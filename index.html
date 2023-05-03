@@ -11,28 +11,53 @@
     <body>
         
         <div class="site">
-            <section class="main border border-secondary rounded" >
-                <a href="index.html"><img src="harrow-coop.png" alt="hcccmb logo"></a>
-                <div class="d-flex justify-content-center py-3">
-                    <button type="button" class="btn btn-primary btn-lg p-4 mx-2" data-bs-toggle="modal" data-bs-target="#programsModal"><i class="fa-solid fa-feather-pointed nav-icon"></i></button>
-                    <button type="button" class="btn btn-primary btn-lg p-4 mx-2" data-bs-toggle="modal" data-bs-target="#feesModal"><i class="fa-solid fa-money-check-dollar nav-icon"></i></button>
-                    <button type="button" class="btn btn-primary btn-lg p-4 mx-2" data-bs-toggle="modal" data-bs-target="#aboutModal"><i class="fa-solid fa-circle-info nav-icon"></i></button>
-                    <button type="button" class="btn btn-primary btn-lg p-4 mx-2" data-bs-toggle="modal" data-bs-target="#contactModal"><i class="fa-solid fa-envelope nav-icon"></i></button>
+            <section class="main rounded" >
+                <div class="header text-center">
+                    <a href="index.html"><img src="harrow-coop.png" class="" alt="hcccmb logo"></a>
                 </div>
 
-                <div class="d-flex justify-content-center">
-                    <button type="button" class="btn btn-secondary p-4 mx-2" data-bs-toggle="modal" data-bs-target="#policyModal"><i class="fa-solid fa-book sec-nav-icon"></i></button>
-                    <button type="button" class="btn btn-secondary p-4 mx-2" data-bs-toggle="modal" data-bs-target="#wishlistModal"><i class="fa-solid fa-gift sec-nav-icon"></i></button>
+                <div class="d-flex justify-content-center py-3">
+                    <button type="button" class="btn main-nav-btn btn-lg p-4 mx-2 rounded-circle" data-bs-toggle="modal" data-bs-target="#programsModal"><i class="fa-solid fa-feather-pointed nav-icon"></i><p class="m-0 main-nav-icon-label">Programs</p></button>
+                    <button type="button" class="btn main-nav-btn btn-lg p-4 mx-2 rounded-circle" data-bs-toggle="modal" data-bs-target="#feesModal"><i class="fa-solid fa-money-check-dollar nav-icon"></i><p class="m-0 main-nav-icon-label">Fees</p></button>
+                    <button type="button" class="btn main-nav-btn btn-lg p-4 mx-2 rounded-circle" data-bs-toggle="modal" data-bs-target="#aboutModal"><i class="fa-solid fa-circle-info nav-icon"></i><p class="m-0 main-nav-icon-label">About us</p></button>
+                    <button type="button" class="btn main-nav-btn btn-lg p-4 mx-2 rounded-circle" data-bs-toggle="modal" data-bs-target="#contactModal"><i class="fa-solid fa-envelope nav-icon"></i><p class="m-0 main-nav-icon-label">Contact us</p></button>
                 </div>
 
                 <!-- Hompage Content -->
                 <h3>Welcome to Harrow Co-op Children's Centre Inc.</h3>
-                <p>Harrow Co-op Children’s Centre Inc. was incorporated April 30, 1984. We are a Not-for-Profit Organization. We strictly adhere to regulations to ensure our centre meets the necessary requirements regarding staffing, programming, nutrition and equipment.</p>
-                <p>We are licensed by the Manitoba Early Learning and Childcare Program and offer quality childcare to children ages 3 months - 12yrs.</p>
-                <p>Our hours of operation are Monday to Friday from 7:00am - 6:00pm.</p>
-                <p>We have two locations: 550 Harrow St. and 611 Guelph St.</p>    
-                <p>We are members of the Manitoba Childcare Association and strive to exceed best practices in our delivery of childcare. We're committed to providing open communication between parents/guardians, teachers in the school and childcare centre. Our policies have been developed in the best interest of the children in our care. It is important that parents share a similar child care philosophy with the centre and that if a problem arises with these policies, parents direct their concerns to the Director.</p>
-                                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <p>Harrow Co-op Children’s Centre Inc. was incorporated April 30, 1984. We are a Not-for-Profit Organization. We strictly adhere to regulations to ensure our centre meets the necessary requirements regarding staffing, programming, nutrition and equipment.</p>
+                            <p>We are licensed by the Manitoba Early Learning and Childcare Program and offer quality childcare to children ages 3 months - 12yrs.</p>
+                        </div>
+                        <div class="col-sm">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <p>Hours</p>
+                                    <p>Monday to Friday</p>
+                                    <p>7:00am - 6:00pm</p></div>
+                                <div class="col-sm">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p>550 Harrow St.</p>
+                                    <p>611 Guelph St.</p>   
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm">
+                                    <button type="button" class="btn sec-nav-btn p-3 mx-2 " data-bs-toggle="modal" data-bs-target="#policyModal"><i class="fa-solid fa-book sec-nav-icon"></i><p class="m-0 sec-nav-icon-label">Parent Policy</p></button>
+                                </div>
+                                <div class="col-sm">
+                                    <button type="button" class="btn sec-nav-btn p-3 mx-2" data-bs-toggle="modal" data-bs-target="#wishlistModal"><i class="fa-solid fa-gift sec-nav-icon"></i><p class="m-0 sec-nav-icon-label">Wishlist</p></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <p>We are members of the Manitoba Childcare Association and strive to exceed best practices in our delivery of childcare. We're committed to providing open communication between parents/guardians, teachers in the school and childcare centre. Our policies have been developed in the best interest of the children in our care. It is important that parents share a similar child care philosophy with the centre and that if a problem arises with these policies, parents direct their concerns to the Director.</p>
+                        </div>
+                      </div>
+                </div>                           
             </section>
 
         </div>
