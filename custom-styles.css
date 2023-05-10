@@ -61,6 +61,7 @@
     padding: 3rem;
     margin-top: 7%;
     background-color: #d9fcfa;
+    border-radius: 5rem!important;
 }
 
 .site {
@@ -87,9 +88,20 @@
 }
 
 .sec-nav-icon-label {
-    font-size: 0.7rem;
+    font-weight: bold;
 }
 
-.sec-nav-btn {
-    color: #000;
+
+.sec-nav-btn, .sec-nav-info {
+    color: #FF92C7;
+    font-weight: bold;
+}
+
+.mid-section {
+    color: #3E858D;
+}
+
+.footer-text {
+    color: #51b2bd;
+
 }
