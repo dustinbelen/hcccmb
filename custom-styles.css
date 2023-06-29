@@ -62,6 +62,9 @@
     margin-top: 7%;
     background-color: #d9fcfa;
     border-radius: 5rem!important;
+    border-color: #3E858D;
+    border-style: solid;
+    border-width: 3px;
 }
 
 body {
