@@ -64,8 +64,9 @@
     border-radius: 5rem!important;
 }
 
-.site {
+body {
     /* background-color: #11e4d6; */
+    background-image: url("./background-tile.png");
 }
 
 /* Main navigation */
