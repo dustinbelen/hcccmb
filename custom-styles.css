@@ -109,3 +109,18 @@ body {
     color: #3E858D;
 
 }
+
+/* Universal Modal Styles */
+.modal .modal-content {
+    background-color: #d9fcfa;
+    color: #3E858D;
+}
+
+.modal .modal-title {
+    font-weight: bold;
+    color: #3E858D;
+}
+
+.modal h5 {
+    font-weight: bold;
+}
