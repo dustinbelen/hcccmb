@@ -124,3 +124,7 @@ body {
 .modal h5 {
     font-weight: bold;
 }
+
+.modal-body {
+    background-color: #fff;
+}
